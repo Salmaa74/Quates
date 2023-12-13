@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes App</title>
+    <link rel="icon" href="style/Q.jpg" type="image/icon type">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class="d-block text-center container">
+        <h1 class="text-black">Quote of the Day</h1>
+        <p class="text-danger-emphasis">Press the button !</p>
+        <div class="d-grid gap-2 col-3 mx-auto">
+            <button class="btn btn-outline-danger" onclick="randomquote()">New Quotes</button>
+        </div>
+       
+        <div class=" mt-5 ">
+            <p id="quote" class="text-black"></p>
+            <p id="author" class="text-muted fs-4 text-start"></p>
+        </div>
+       
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
